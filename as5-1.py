@@ -1,4 +1,6 @@
-# fact 6 = 6*5*4*3*2*1
-a=input('enter your add ?')
-b=len(a)
-print(b)
+n=int(input('enter your add :'))
+cunter=0
+while n!=0:
+    n=n//10
+    cunter+=1
+print(cunter)
